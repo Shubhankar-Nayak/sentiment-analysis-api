@@ -18,3 +18,14 @@ The API takes text input and returns whether the sentiment is **positive**, **ne
 ```bash
 git clone https://github.com/your-username/sentiment-api.git
 cd sentiment-api
+```
+
+### 2. Build Docker Image
+```bash
+docker build -t sentiment-api .
+```
+
+### 3. Run Container
+```bash
+docker run -d -p 8000:8000 sentiment-api
+```
