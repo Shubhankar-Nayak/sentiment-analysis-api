@@ -1,8 +1,20 @@
-# Sentiment Analysis API
+# Sentiment Analysis API 📝🔍
 
-A lightweight NLP sentiment analysis API using FastAPI + VADER.
+A simple FastAPI-based sentiment analysis service using **NLTK VADER**.  
+The API takes text input and returns whether the sentiment is **positive**, **negative**, or **neutral**.
 
-## Run locally
+---
+
+## 🚀 Features
+- Analyze sentiment of text (`/analyze`)
+- Health check endpoint (`/health`)
+- Dockerized for easy deployment
+
+---
+
+## 🛠️ Setup & Run
+
+### 1. Clone the repository
 ```bash
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+git clone https://github.com/your-username/sentiment-api.git
+cd sentiment-api
